@@ -51,8 +51,7 @@ document.querySelectorAll('.video-box').forEach(function (b) {
   var im = d.querySelector('img');
   g.addEventListener('click', function (e) {
     var t = e.target.closest('img'); if (!t) return;
-    var set = (t.getAttribute('srcset') || '').split(',').pop().trim().split(' ')[0];
-    im.src = set || t.src; im.alt = t.alt; d.showModal();
+    e.preventDefault(); im.src = t.closest('a').href; im.alt = t.alt; d.showModal();
   });
   d.addEventListener('click', function () { d.close(); });
 })();
