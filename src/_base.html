@@ -29,6 +29,7 @@
     <nav aria-label="Hlavní">
       {% for n in site.nav %}<a href="{{ n.href if n.href.startswith(('#', 'http', 'tel:', 'mailto:')) else url(n.href) }}">{{ n.text }}</a> {% endfor %}
     </nav>
+    <a class="tlacitko hl-cta" href="#kontakt">Domluvit prohlídku</a>
   </div>
 </header>
 <main id="obsah">
@@ -41,6 +42,7 @@
     {% if site.kontakt.telefon %}<p><a href="tel:{{ site.kontakt.telefon|replace(' ', '') }}">{{ site.kontakt.telefon }}</a></p>{% endif %}
   </div>
 </footer>
+<div class="spodni-lista"><a href="tel:{{ site.kontakt.telefon|replace(' ', '') }}">Zavolat</a><a href="mailto:{{ site.kontakt.email }}">Napsat</a></div>
 <script src="{{ asset('js/main.js') }}" defer></script>
 </body>
 </html>

@@ -1,0 +1,17 @@
+{
+  "znamka": 7,
+  "slabiny": [
+    "Sekce „Dům v číslech“ (PC, 1440): ve druhém řádku jsou hodnoty Stav a Garáž svisle posunuté níž než Vytápění a Navíc, takže mřížka působí rozbitě. Pod tabulkou zůstává velká prázdná plocha a první řádek jen opakuje údaje z hera. Opravit: buňky zarovnat nahoru (align-items: start). Dlouhou položku Navíc dát jako samostatný řádek přes celou šířku. Mezeru pod sekcí zmenšit asi na polovinu, nebo první řádek sloučit s cenou v heru.",
+    "Sekce „Zahrada a bazén“ (PC): pod velkou fotkou zahrady je seznam (bazén, besídka, hřiště, skalky) se dvěma malými náhledy asi 140 px a pravá polovina obrazovky je prázdná. Návrh, který jinak stojí na fotkách, tu působí odfláknutě. Opravit: ke každé položce dát její fotku ve velikosti jako v Prohlídce, tedy bazén se zastřešením, besídku s krbem a zahradu se skalkami, buď střídavě vlevo a vpravo, nebo jako trojici velkých fotek pod seznamem.",
+    "Hlavička a konverze: na PC je v hlavičce jen drobný textový název a nav asi 11 px, chybí tlačítko „Domluvit prohlídku“ i telefon. Na mobilu hlavička neukazuje vůbec nic kromě odkazů a k prohlídce se člověk dostane až úplně dole. Kromě hera tak na celé dlouhé stránce chybí výzva k akci. Opravit: do hlavičky vpravo dát cihlové tlačítko „Domluvit prohlídku“ (kotva na Kontakt). Na mobilu přidat fixní spodní lištu Zavolat / Napsat. Nadpis v heru na PC zvětšit asi o 30 %, aby se nelámal do 4 krátkých řádků."
+  ],
+  "zavazne": [],
+  "silne": [
+    "Koncept jako prohlídka domu místnost po místnosti, s lepicím menu místností (Obývací část, Kuchyně, Zimní zahrada, Podkroví), dobře sedí k prodeji nemovitosti a nese celou stránku.",
+    "Všechny fotky jsou skutečné, ostré a profesionální (letecký snímek v heru, interiéry, zahrada s bazénem na celou šířku). Nic není roztažené a nejsou tu žádné stocky.",
+    "Světlá teplá paleta s cihlovým akcentem ladí se střechou domu a Lora s Figtree čitelně zvládají diakritiku. Nejsou tu marquee, číslování ani tmavý luxusní styl.",
+    "Okolí s vzdálenostmi uvádí zdroj (Sreality). Kontakt s telefonem a e-mailem je na konci, QA je čisté na všech 6 šířkách."
+  ],
+  "verdikt": "opravit – poctivý a čistý prodejní web s dobrým nápadem prohlídky a skvělými fotkami, ale mřížka parametrů je nedotažená, sekce zahrady na PC poloprázdná a chybí průběžná výzva k prohlídce. Před odesláním ještě ověřit cenu 13,4 nebo 13,9 mil. a jestli Petr Šotorník je opravdu „realitní makléř“, protože v briefu to není.",
+  "_hash": "e3d46e6427aa8652d413de5397b0e0fe793b2b4c"
+}
