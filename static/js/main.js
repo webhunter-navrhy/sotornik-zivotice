@@ -41,3 +41,18 @@ document.querySelectorAll('.video-box').forEach(function (b) {
   }, { rootMargin: '-30% 0px -60% 0px' });
   document.querySelectorAll('.mistnost').forEach(function (m) { io.observe(m); });
 })();
+
+(function () {
+  var g = document.querySelector('.galerie-mrizka');
+  if (!g || !window.HTMLDialogElement) return;
+  var d = document.createElement('dialog'); d.className = 'lb';
+  d.innerHTML = '<button type="button" aria-label="Zavřít">×</button><img alt="">';
+  document.body.appendChild(d);
+  var im = d.querySelector('img');
+  g.addEventListener('click', function (e) {
+    var t = e.target.closest('img'); if (!t) return;
+    var set = (t.getAttribute('srcset') || '').split(',').pop().trim().split(' ')[0];
+    im.src = set || t.src; im.alt = t.alt; d.showModal();
+  });
+  d.addEventListener('click', function () { d.close(); });
+})();

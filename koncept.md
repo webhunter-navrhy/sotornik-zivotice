@@ -1,4 +1,4 @@
-# Koncept: Dům u přehrady, Havířov-Životice (Petr Šotorník, prodej domu)
+# Koncept: Dům u přehrady, Havířov-Životice (Petr Sotorník, prodej domu)
 Tři koncepty:
 1. Prohlídka krok za krokem: od brány přes místnosti do zahrady, s bočním rejstříkem místností jako na plánku.
 2. Plánek pozemku: půdorys parcely s popsanými zónami, fotky vyskakují z plánku.
