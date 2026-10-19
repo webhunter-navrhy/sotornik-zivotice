@@ -1,0 +1,55 @@
+{
+  "slug": "sotornik-zivotice",
+  "nazev": "Dům u přehrady, Havířov-Životice",
+  "url": "https://webhunter-navrhy.github.io/sotornik-zivotice/",
+  "base": "/sotornik-zivotice/",
+  "lang": "cs",
+  "popis": "Prodej rodinného domu 5+kk, 250 m², pozemek 1 350 m² s krytým bazénem v Havířově-Životicích u přehrady. Cena 13 400 000 Kč.",
+  "navrh": true,
+  "domena": "",
+  "og_image": "dum-letecky.jpg",
+  "logo": "",
+  "theme_color": "#f4ede1",
+  "typ": "RealEstateAgent",
+  "ico": "",
+  "kontakt": {
+    "email": "info@petrsotornik.cz",
+    "telefon": "+420 777 056 358",
+    "adresa": {
+      "ulice": "K Přehradě",
+      "psc": "",
+      "mesto": "Havířov-Životice",
+      "zeme": "CZ"
+    }
+  },
+  "oteviraci_doba": [],
+  "sameas": [],
+  "cenove_rozpeti": "13 400 000 Kč",
+  "formular": {
+    "endpoint": "",
+    "demo": true,
+    "predmet": "Poptávka z webu"
+  },
+  "nav": [
+    {
+      "text": "Dům",
+      "href": "#dum"
+    },
+    {
+      "text": "Prohlídka",
+      "href": "#prohlidka"
+    },
+    {
+      "text": "Zahrada",
+      "href": "#zahrada"
+    },
+    {
+      "text": "Okolí",
+      "href": "#okoli"
+    },
+    {
+      "text": "Kontakt",
+      "href": "#kontakt"
+    }
+  ]
+}
