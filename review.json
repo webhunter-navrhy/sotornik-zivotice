@@ -1,17 +1,16 @@
 {
-  "znamka": 7,
+  "znamka": 8,
   "slabiny": [
-    "Sekce „Dům v číslech“ (PC, 1440): ve druhém řádku jsou hodnoty Stav a Garáž svisle posunuté níž než Vytápění a Navíc, takže mřížka působí rozbitě. Pod tabulkou zůstává velká prázdná plocha a první řádek jen opakuje údaje z hera. Opravit: buňky zarovnat nahoru (align-items: start). Dlouhou položku Navíc dát jako samostatný řádek přes celou šířku. Mezeru pod sekcí zmenšit asi na polovinu, nebo první řádek sloučit s cenou v heru.",
-    "Sekce „Zahrada a bazén“ (PC): pod velkou fotkou zahrady je seznam (bazén, besídka, hřiště, skalky) se dvěma malými náhledy asi 140 px a pravá polovina obrazovky je prázdná. Návrh, který jinak stojí na fotkách, tu působí odfláknutě. Opravit: ke každé položce dát její fotku ve velikosti jako v Prohlídce, tedy bazén se zastřešením, besídku s krbem a zahradu se skalkami, buď střídavě vlevo a vpravo, nebo jako trojici velkých fotek pod seznamem.",
-    "Hlavička a konverze: na PC je v hlavičce jen drobný textový název a nav asi 11 px, chybí tlačítko „Domluvit prohlídku“ i telefon. Na mobilu hlavička neukazuje vůbec nic kromě odkazů a k prohlídce se člověk dostane až úplně dole. Kromě hera tak na celé dlouhé stránce chybí výzva k akci. Opravit: do hlavičky vpravo dát cihlové tlačítko „Domluvit prohlídku“ (kotva na Kontakt). Na mobilu přidat fixní spodní lištu Zavolat / Napsat. Nadpis v heru na PC zvětšit asi o 30 %, aby se nelámal do 4 krátkých řádků."
+    "Hero na PC (1440): nadpis „Dům se zahradou a bazénem u přehrady“ je větší, ale v úzkém levém sloupci se pořád láme do 4 krátkých řádků. Textový sloupec rozšířit asi na 45 % (fotku zúžit) nebo zmenšit max-width nadpisu, aby vyšel na 2–3 řádky.",
+    "Zahrada a bazén (PC): čtyři položky nad trojicí fotek nejsou svázané s fotkami. „Zastřešený vyhřívaný bazén“ se láme a „bazén“ zůstává na samostatném řádku, a ke skalkám ani hřišti fotka chybí. Položky dát přímo jako popisky pod fotky bazénu, besídky a zahrady se skalkami. Dětské hřiště připsat k zahradě, protože fotku nemá.",
+    "Mobil (390): fixní lišta Zavolat / Napsat na konci stránky překrývá patičku a nadpis „Prohlídka domu“ s kontakty. Body přidat padding-bottom ve výšce lišty (asi 56 px + safe-area). Do mobilní hlavičky vlevo doplnit zkrácený název „Dům u přehrady“, aby nebyla jen řada odkazů."
   ],
   "zavazne": [],
   "silne": [
-    "Koncept jako prohlídka domu místnost po místnosti, s lepicím menu místností (Obývací část, Kuchyně, Zimní zahrada, Podkroví), dobře sedí k prodeji nemovitosti a nese celou stránku.",
-    "Všechny fotky jsou skutečné, ostré a profesionální (letecký snímek v heru, interiéry, zahrada s bazénem na celou šířku). Nic není roztažené a nejsou tu žádné stocky.",
-    "Světlá teplá paleta s cihlovým akcentem ladí se střechou domu a Lora s Figtree čitelně zvládají diakritiku. Nejsou tu marquee, číslování ani tmavý luxusní styl.",
-    "Okolí s vzdálenostmi uvádí zdroj (Sreality). Kontakt s telefonem a e-mailem je na konci, QA je čisté na všech 6 šířkách."
+    "Všechny tři minulé výtky jsou opravené. Mřížka „Dům v číslech“ je zarovnaná nahoru a „Navíc“ má vlastní řádek přes celou šířku. Zahrada má velkou fotku a trojici fotek místo dvou náhledů. V hlavičce na PC je cihlové tlačítko „Domluvit prohlídku“ a na mobilu fixní lišta Zavolat / Napsat.",
+    "Prohlídka jako procházka po místnostech s bočním navigátorem (Obývací část, Kuchyně, Zimní zahrada, Podkroví) a s reálnými ostrými fotkami domu dává webu konkrétní koncept prodeje jedné nemovitosti, ne šablonu.",
+    "Fakta (cena 13 400 000 Kč podle klienta, plochy, rok, energetická třída, vzdálenosti s poznámkou „podle inzerátu na Sreality“) sedí s briefem a nic není vymyšlené. Světlý teplý editorial s Lora a Figtree a jedním cihlovým akcentem drží klid. QA nehlásí přetečení na žádné šířce."
   ],
-  "verdikt": "opravit – poctivý a čistý prodejní web s dobrým nápadem prohlídky a skvělými fotkami, ale mřížka parametrů je nedotažená, sekce zahrady na PC poloprázdná a chybí průběžná výzva k prohlídce. Před odesláním ještě ověřit cenu 13,4 nebo 13,9 mil. a jestli Petr Šotorník je opravdu „realitní makléř“, protože v briefu to není.",
-  "_hash": "e3d46e6427aa8652d413de5397b0e0fe793b2b4c"
+  "verdikt": "Minulé výtky jsou opravené a web je pravdivý, fotkami nesený prodejní web domu. Je dost dobrý k odeslání. Zbývají drobnosti v heru, popiscích zahrady a v mobilní liště u patičky.",
+  "_hash": "2f884bc722c8e3ebc615d802176621d389c8222e"
 }

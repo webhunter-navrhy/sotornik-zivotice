@@ -30,13 +30,13 @@
         "pocet_pretekajicich": 0
       }
     },
-    "preneseno_PC_MB": 1.08,
+    "preneseno_PC_MB": 1.11,
     "nejvetsi_obrazek_PC": {
       "kB": 225,
       "url": "https://webhunter-navrhy.github.io/sotornik-zivotice/img/dum-vstup-1600.webp"
     },
-    "snimku_PC": 10,
-    "preneseno_mobil_MB": 1.5,
+    "snimku_PC": 11,
+    "preneseno_mobil_MB": 1.6,
     "nejvetsi_obrazek_mobil": {
       "kB": 152,
       "url": "https://webhunter-navrhy.github.io/sotornik-zivotice/img/zimni-zahrada-2-960.webp"
@@ -61,7 +61,7 @@
     "font_text": "Figtree",
     "podstranky": {
       "stranek": 1,
-      "obrazku": 51
+      "obrazku": 54
     }
   }
 }
