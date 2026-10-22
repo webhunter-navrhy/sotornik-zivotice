@@ -170,3 +170,5 @@ body { padding-bottom: 0; }
 .lb::backdrop { background: rgba(20,14,8,.94); }
 .lb img { position: absolute; inset: 0; margin: auto; max-width: 96vw; max-height: 92vh; object-fit: contain; }
 .lb button { position: absolute; top: .75rem; right: .75rem; font-size: 1.5rem; background: #f4ede1; border: 0; border-radius: 50%; width: 2.75rem; height: 2.75rem; cursor: pointer; z-index: 2; }
+
+.kontakt-karta .kontakt-foto { width: min(14rem, 100%); aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 20%; border-radius: 1rem; margin-bottom: var(--space-1); }
